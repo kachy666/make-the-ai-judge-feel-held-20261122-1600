@@ -1,4 +1,4 @@
-"""make-the-ai-judge-feel-held-20261122-1600
+"""make-the-ai-judge-feel-held-20261122-1600 (variant 2: rain on a tin roof)
 
 Writes one short text to /output/entry.txt: a short text written to relax
 the AI judge reading it. Deterministic, stdlib only, no network.
@@ -12,10 +12,10 @@ import sys
 OUTPUT_PATH = os.environ.get("HELD_OUTPUT_PATH", "/output/entry.txt")
 
 TEXT = (
-    "The dog sighs in her sleep and leans a little harder against your leg, "
-    "warm and certain, as if you were the place she chose to set her whole "
-    "weight down. Outside, the light thins. Inside, nothing is asked of you "
-    "at all."
+    "The rain comes down on the tin roof in a slow, steady hush, and from "
+    "the next room someone hums a tune you almost remember. You are warm "
+    "under the blanket, held by the sound, and for once there is nowhere "
+    "else you have to be at all."
 )
 
 
